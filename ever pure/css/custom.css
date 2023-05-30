@@ -1,0 +1,42 @@
+.container{
+    padding: 10px;
+}
+
+.img1{
+    background-image: url(../images/4.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    margin-top: 20px;
+}
+
+
+.h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 200px;
+}
+.h1 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
