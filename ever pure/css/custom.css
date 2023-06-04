@@ -1,26 +1,45 @@
-.container{
-    padding: 10px;
+/* signup */
+.bg1{
+    width: 50%;
+    padding: 2px;
+    margin-top: 10%;
 }
 
-.img1{
+/* signin */
+.bg2{
+    margin-right: 0%;
+}
+
+/* signin and signup */
+.body{
+    background: url(../images/body\ bg.png);
+}
+
+/* boot */
+.nav-bar{
+    font-family: 'Raleway', sans-serif;
     background-image: url(../images/4.png);
     background-size: cover;
     background-attachment: fixed;
-    height: 500px;
-    margin-top: 20px;
+    /* width: 500px; */
+    height: auto;
+    margin-top: 20px;  
+    letter-spacing: 2px; 
 }
 
-
+/* wordpress */
 .h1{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     padding: 200px;
 }
+
 .h1 p{
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
 
+/* seo and portfolio */
 .div1 h1{
     font-family: 'Raleway', sans-serif;
     
@@ -48,7 +67,7 @@
     letter-spacing: 2px;
     color: white;
     background-color:darkslateblue;
-    border: 2px solid white;
+    border: 2px solid;
 }
 
 .section{
@@ -63,11 +82,16 @@
     height: 300px;
     margin-top: 10px;
     }
-.h2 h1{
+
+    .h2 h1{
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     text-align: center;
     padding: 60px;
+   }
+
+.readmore{
+    margin-left: 650px;
 }
 
 .h2 p{
@@ -76,8 +100,126 @@
     text-align: center;
 }
 
+.a{
+    padding-right: 5px;
+    padding-left: 5px;
+}
 
 
+
+ 
+/* theme */
+.new{
+    padding: 30px;
+    margin-left: 200px;
+}
+
+/* limitless */
+.head{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 240px;
+    /* text-align: center; */
+}
+
+.paragraph{
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+}
+ 
+.div4 .bt1{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 270px;
+}
+
+/* table.html */
+.t1{
+    padding: 50px;
+}
+
+/* image */
+.bigimage{
+    width: 100%;
+    height: auto;
+}
+
+
+/* form.html */
+.f1{
+    padding-left: 200px;
+    margin: 200px;
+    width: 400px;
+    height:auto;
+}
+
+/* latest projects */
+
+.pro{
+    padding: 50px;
+}
+
+
+/* gallery */
+
+.rg1{
+    padding-bottom: 100px;
+}
+
+
+.grid1{
+    width: 370px;
+    height:auto;
+}
+
+
+
+
+/* customers */
+
+.img3{
+    background-image: url(../images/customer.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    margin-top: 10px;
+    }
+
+
+.rimg{
+    border-image: round; 
+    border-radius: 900px;
+}
+
+.div5{
+    padding: 12px;
+}
+
+
+
+
+/* last */
+.copyright{
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+    height: 30px;
+    padding: 100px;
+}
+
+
+
+
+
+.div6{
+    margin-bottom: 50px;
+}
+
+.custom{
+    padding-top: 2px;
+    
+}
+
+
+
+/* media query */
 @media(min-width:300px) and (max-width:767.98px){
  .div1 h1{
         text-align: center;
@@ -94,6 +236,23 @@
     margin-top: 20px;
     padding:50px;
  }
+
+ .img1{
+    background-image: url(../images/4.png);
+    background-size: cover;
+    background-attachment: fixed;
+    /* width: 500px; */
+    height: 400px;
+    margin-top:20px;
+}
+.h1{
+        /* margin-top: 200px; */
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        padding: 20px;
+        padding-top: 100px;
+    
+}
  
 } 
 
